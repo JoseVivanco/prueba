@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+#containerPublicidad{
+  max-width:1365px;
+  
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+
+ 
+
+}
+
+#containerSlider{
+    white-space: nowrap;
+}
+
+.left, .right {
+  position: absolute;
+  top: 45%;
+  font-size: 2em;
+  width: 4.5%;
+  min-width: 1em;
+  border: none;
+  text-align: center;
+  color:  black;
+  background-color: #4DA6EE;
+  border-radius: 0.25em;
+  cursor: pointer;
+}.left {
+  left: 0px;
+}
+.right {
+  right: 0px;
+}
+
+
+
+
+.slide {
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 20%;
+}
